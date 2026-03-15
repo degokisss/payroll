@@ -21,7 +21,7 @@ export default function PITReference() {
       <div className="card-header">
         <div>
           <h2>Biểu Thuế TNCN Lũy Tiến</h2>
-          <p>TT111/2013/TT-BTC — Cập nhật 2025</p>
+          <p>TT111/2013/TT-BTC — Cập nhật 2026</p>
         </div>
         <span className="badge">7 Bậc</span>
       </div>
@@ -96,7 +96,7 @@ export default function PITReference() {
           <table>
             <tbody>
               <tr><td>Giảm trừ bản thân</td><td style={{ textAlign: 'right' }}><strong>11.000.000 đ/tháng</strong></td></tr>
-              <tr><td>Giảm trừ mỗi người phụ thuộc</td><td style={{ textAlign: 'right' }}><strong>4.400.000 đ/người/tháng</strong></td></tr>
+              <tr><td>Giảm trừ mỗi người phụ thuộc</td><td style={{ textAlign: 'right' }}><strong>6.000.000 đ/người/tháng</strong></td></tr>
               <tr><td>PC ăn trưa miễn thuế tối đa</td><td style={{ textAlign: 'right' }}>730.000 đ/tháng</td></tr>
               <tr><td>PC điện thoại miễn thuế tối đa</td><td style={{ textAlign: 'right' }}>300.000 đ/tháng</td></tr>
               <tr><td>PC đi lại (công vụ)</td><td style={{ textAlign: 'right' }}>Theo thực tế</td></tr>
@@ -106,8 +106,8 @@ export default function PITReference() {
 
         <div className="info-box">
           <span className="tag">Cơ sở pháp lý</span>{' '}
-          Thông tư 111/2013/TT-BTC, Nghị quyết 954/2020/UBTVQH14 (nâng mức giảm trừ),
-          Luật Thuế TNCN sửa đổi 2014. Mức giảm trừ bản thân 11M và NPT 4.4M áp dụng từ 1/7/2020.
+          Thông tư 111/2013/TT-BTC, Nghị quyết 954/2020/UBTVQH14, Nghị quyết 2026 (nâng NPT lên 6M).
+          Giảm trừ bản thân: 11.000.000đ/tháng. Giảm trừ NPT: <strong>6.000.000đ/người/tháng</strong> (áp dụng từ 2026).
         </div>
 
       </div>

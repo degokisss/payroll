@@ -22,9 +22,9 @@ export default function NetToGross() {
       <div className="card-header">
         <div>
           <h2>Tính Ngược Net → Gross</h2>
-          <p>Reverse Payroll Calculator — Luật Lao động Việt Nam 2025</p>
+          <p>Reverse Payroll Calculator — Luật Lao động Việt Nam 2026</p>
         </div>
-        <span className="badge">2025</span>
+        <span className="badge">2026</span>
       </div>
       <div className="card-body">
 
@@ -84,7 +84,7 @@ export default function NetToGross() {
               <tr>
                 <td className="tbl-muted">Giảm trừ gia cảnh</td>
                 <td style={{ color: 'var(--muted)', fontSize: 12 }}>
-                  Bản thân 11M{deps > 0 ? ` + ${deps} NPT × 4.4M` : ''}
+                  Bản thân 11M{deps > 0 ? ` + ${deps} NPT × 6M` : ''}
                 </td>
                 <td style={{ color: 'var(--muted)', textAlign: 'right' }}>({fmt(selfDed + exempt)})</td>
               </tr>

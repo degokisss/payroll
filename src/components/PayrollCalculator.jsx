@@ -59,7 +59,7 @@ export default function PayrollCalculator() {
           <h2>Phiếu Tính Lương Nhân Viên</h2>
           <p>HR Payroll Calculation Sheet — Theo Luật Lao động Việt Nam</p>
         </div>
-        <span className="badge">2025</span>
+        <span className="badge">2026</span>
       </div>
       <div className="card-body">
 
@@ -98,7 +98,7 @@ export default function PayrollCalculator() {
         <div className="g3">
           <div className="field"><label>Số người phụ thuộc</label><input type="number" value={f.deps} onChange={num('deps')} min="0" /></div>
           <div className="field"><label>Giảm trừ bản thân (đ)</label><input readOnly value="11,000,000" /></div>
-          <div className="field"><label>Giảm trừ mỗi NPT (đ)</label><input readOnly value="4,400,000" /></div>
+          <div className="field"><label>Giảm trừ mỗi NPT (đ)</label><input readOnly value="6,000,000" /></div>
         </div>
 
         {/* Bảng chi tiết */}
@@ -150,7 +150,7 @@ export default function PayrollCalculator() {
 
         <div className="info-box">
           Giảm trừ bản thân: 11.000.000đ
-          {f.deps > 0 && ` + ${f.deps} NPT × 4.400.000đ = ${fmt(selfDed)}đ`}
+          {f.deps > 0 && ` + ${f.deps} NPT × 6.000.000đ = ${fmt(selfDed)}đ`}
           . Thu nhập chịu thuế: <strong>{fmt(taxable)}đ</strong>.
         </div>
 
