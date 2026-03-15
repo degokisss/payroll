@@ -2,15 +2,17 @@ import { useState } from 'react'
 import PayrollCalculator from './components/PayrollCalculator'
 import NetToGross from './components/NetToGross'
 import PITReference from './components/PITReference'
+import BulkPayroll from './components/BulkPayroll'
 
 const TABS = [
+  { id: 'bulk',    label: '📂 Import Excel (hàng loạt)' },
   { id: 'payroll', label: 'Tính lương (Gross → Net)' },
   { id: 'reverse', label: 'Tính ngược (Net → Gross)' },
   { id: 'pit',     label: 'Biểu thuế TNCN' },
 ]
 
 export default function App() {
-  const [tab, setTab] = useState('payroll')
+  const [tab, setTab] = useState('bulk')
 
   return (
     <div>
@@ -31,6 +33,7 @@ export default function App() {
         ))}
       </div>
 
+      {tab === 'bulk'    && <BulkPayroll />}
       {tab === 'payroll' && <PayrollCalculator />}
       {tab === 'reverse' && <NetToGross />}
       {tab === 'pit'     && <PITReference />}
