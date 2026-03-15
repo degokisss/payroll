@@ -3,8 +3,8 @@ export const fmt = (n) => Math.round(n).toLocaleString('vi-VN')
 export const fmtM = (n) => (n / 1e6).toFixed(2)
 
 // ─── Constants ────────────────────────────────────────────────
-export const SELF_DED = 11_000_000
-export const DEP_DED  = 6_000_000
+export const SELF_DED = 15_500_000
+export const DEP_DED  = 6_200_000
 export const INS_CAP  = 36_000_000   // tối đa 20 × lương tối thiểu vùng (simplified)
 export const EE_RATE  = 0.105        // 8% BHXH + 1.5% BHYT + 1% BHTN
 export const ER_RATE  = 0.205        // 17.5% BHXH + 3% BHYT + 1% BHTN

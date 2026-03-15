@@ -84,7 +84,7 @@ export default function NetToGross() {
               <tr>
                 <td className="tbl-muted">Giảm trừ gia cảnh</td>
                 <td style={{ color: 'var(--muted)', fontSize: 12 }}>
-                  Bản thân 11M{deps > 0 ? ` + ${deps} NPT × 6M` : ''}
+                  Bản thân 15.5M{deps > 0 ? ` + ${deps} NPT × 6.2M` : ''}
                 </td>
                 <td style={{ color: 'var(--muted)', textAlign: 'right' }}>({fmt(selfDed + exempt)})</td>
               </tr>

@@ -95,8 +95,8 @@ export default function PITReference() {
         <div className="tbl-wrap">
           <table>
             <tbody>
-              <tr><td>Giảm trừ bản thân</td><td style={{ textAlign: 'right' }}><strong>11.000.000 đ/tháng</strong></td></tr>
-              <tr><td>Giảm trừ mỗi người phụ thuộc</td><td style={{ textAlign: 'right' }}><strong>6.000.000 đ/người/tháng</strong></td></tr>
+              <tr><td>Giảm trừ bản thân</td><td style={{ textAlign: 'right' }}><strong>15.500.000 đ/tháng</strong></td></tr>
+              <tr><td>Giảm trừ mỗi người phụ thuộc</td><td style={{ textAlign: 'right' }}><strong>6.200.000 đ/người/tháng</strong></td></tr>
               <tr><td>PC ăn trưa miễn thuế tối đa</td><td style={{ textAlign: 'right' }}>730.000 đ/tháng</td></tr>
               <tr><td>PC điện thoại miễn thuế tối đa</td><td style={{ textAlign: 'right' }}>300.000 đ/tháng</td></tr>
               <tr><td>PC đi lại (công vụ)</td><td style={{ textAlign: 'right' }}>Theo thực tế</td></tr>
@@ -106,8 +106,8 @@ export default function PITReference() {
 
         <div className="info-box">
           <span className="tag">Cơ sở pháp lý</span>{' '}
-          Thông tư 111/2013/TT-BTC, Nghị quyết 954/2020/UBTVQH14, Nghị quyết 2026 (nâng NPT lên 6M).
-          Giảm trừ bản thân: 11.000.000đ/tháng. Giảm trừ NPT: <strong>6.000.000đ/người/tháng</strong> (áp dụng từ 2026).
+          Thông tư 111/2013/TT-BTC, Nghị quyết 954/2020/UBTVQH14, Luật Thuế TNCN sửa đổi 2026.
+          Giảm trừ bản thân: <strong>15.500.000đ/tháng</strong>. Giảm trừ NPT: <strong>6.200.000đ/người/tháng</strong> (áp dụng từ 2026).
         </div>
 
       </div>
